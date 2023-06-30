@@ -1,6 +1,5 @@
 import React from 'react'
-import logo from '../assets/A.png'
-import Image from 'next/image'
+ 
 const Footer = () => {
   return (
     <div>
@@ -9,12 +8,12 @@ const Footer = () => {
 <footer className=" rounded-lg shadow bg-gray-900 m-4">
     
 <footer className="bg-gray-900">
-    <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <div className="mx-auto w-full max-w-screen-xl p-4 py-3 lg:py-3">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-              <div  className="flex items-center">
-                  <Image src={logo} className="w-[10rem] h-[10rem] " alt="adarsh Logo" />
-                  <span className="self-center mb-9 text-3xl font-semibold whitespace-nowrap text-white">Adarsh Shetty</span>
+              <div  className="flex text-center flex-col justify-center items-center">
+                  
+                  <span className="self-center mb-0 text-1xl font-light whitespace-nowrap text-white">Made with ❤️ by Adarsh Shetty</span>
               </div>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
