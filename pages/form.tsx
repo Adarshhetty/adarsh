@@ -53,7 +53,7 @@ const Form = () => {
         <input
           type="text"
           name="name"
-          className="bg-transparent border-white border rounded-lg py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-white"
+          className="bg-transparent hover:border-white hover:border hover:shadow-md hover:shadow-black rounded-lg py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-white"
         />
 
         <label htmlFor="email" className=" font-light mt-4 text-gray-50">
@@ -62,7 +62,7 @@ const Form = () => {
         <input
           type="email"
           name="email"
-          className="bg-transparent border border-white rounded-lg py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-white"
+          className="bg-transparent hover:border-white hover:border hover:shadow-md hover:shadow-black rounded-lg py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-white"
         />
 
         <label htmlFor="subject" className=" font-light mt-4 text-gray-50">
@@ -71,7 +71,7 @@ const Form = () => {
         <input
           type="text"
           name="subject"
-          className="bg-transparent border border-white rounded-lg py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-white"
+          className="bg-transparent hover:border-white hover:border hover:shadow-md hover:shadow-black rounded-lg py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-white"
         />
 
         <label htmlFor="message" className=" font-light mt-4 text-gray-50">
@@ -79,12 +79,12 @@ const Form = () => {
         </label>
         <textarea
           name="message"
-          className="bg-transparent border border-white rounded-lg py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-white"></textarea>
+          className="bg-transparent hover:border-white hover:border hover:shadow-md hover:shadow-black rounded-lg py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-white"></textarea>
 
         <div className="flex flex-row items-center justify-start">
           <button
             type="submit"
-            className="px-10 mt-8 py-2 bg-gray-500 boder border border-white rounded-lg text-gray-50 font-light  text-lg flex flex-row items-center hover:bg-gray-800">
+            className="px-10 mt-8 py-2 bg-blue-400 boder border border-white rounded-lg text-white font-light  text-lg flex flex-row items-center hover:bg-gray-800">
             Send
           </button>
         </div>
