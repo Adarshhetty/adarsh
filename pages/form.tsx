@@ -38,7 +38,7 @@ const Form = () => {
       className=" flex flex-col justify-center items-center min-h-screen py-3  text-white">
       <Divider />
       <div className="text-center mt-4 mb-14">
-        <h3 className="text-4xl font-bold hover:underline">Contact</h3>
+        <h3 className="text-4xl font-bold hover:underline">Contact Me</h3>
       </div>
 
       <form
