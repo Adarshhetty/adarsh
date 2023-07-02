@@ -54,7 +54,7 @@ const Form = () => {
           type="text"
           name="name"
           className="bg-transparent hover:border-white hover:border hover:shadow-md hover:shadow-black rounded-lg py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-white"
-        />
+       required />
 
         <label htmlFor="email" className=" font-light mt-4 text-gray-50">
           E-mail<span className="text-red-500 dark:text-gray-50">*</span>
@@ -63,7 +63,7 @@ const Form = () => {
           type="email"
           name="email"
           className="bg-transparent hover:border-white hover:border hover:shadow-md hover:shadow-black rounded-lg py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-white"
-        />
+       required />
 
         <label htmlFor="subject" className=" font-light mt-4 text-gray-50">
           Subject<span className="text-red-500 dark:text-gray-50">*</span>
@@ -79,7 +79,7 @@ const Form = () => {
         </label>
         <textarea
           name="message"
-          className="bg-transparent hover:border-white hover:border hover:shadow-md hover:shadow-black rounded-lg py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-white"></textarea>
+          className="bg-transparent hover:border-white hover:border hover:shadow-md hover:shadow-black rounded-lg py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-white" required></textarea>
 
         <div className="flex flex-row items-center justify-start">
           <button
