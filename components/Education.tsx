@@ -30,7 +30,7 @@ const Education = () => {
             <h3 className="flex items-center mb-1 text-lg font-semibold text-white">
               N.M.A.M INSTITUTE OF TECHNOLOGY , NITTE
               <span className="md:mr-6 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-blue-900 dark:text-blue-300 ml-3">
-                Latest
+                Present
               </span>
             </h3>
             <time className="block mb-2 text-md font-normal leading-none text-gray-400 ">
