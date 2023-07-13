@@ -60,7 +60,7 @@ const About = () => {
           </a>
           <a href="https://instagram.com/_.adarsh.shetty._?igshid=ZGUzMzM3NWJiOQ=="><svg
   xmlns="http://www.w3.org/2000/svg"
-  className="h-6 w-6"
+  className="h-6 w-6 text-white hover:text-gray-500"
   fill="currentColor"
   viewBox="0 0 24 24">
   <path
