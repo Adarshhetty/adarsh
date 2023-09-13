@@ -131,7 +131,7 @@ const Education = () => {
             </p>
 
             <h3 className="mb-2 text-lg font-semibold tracking-tight text-white">
-              FRAMEWORKS
+              FRAMEWORKS & LIBRARIES
             </h3>
             <p className=" flex-wrap font-normal text-gray-400">
             <button
